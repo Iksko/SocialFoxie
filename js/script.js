@@ -14,7 +14,11 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 
 const exploreMore = document.getElementById("explore-more")
 const exploreMoreLinks = document.getElementById("explore-more-links")
+const categories = document.getElementById("category")
 
 exploreMore.addEventListener("click", () => {
+    exploreMoreLinks.classList.toggle("is-active")
+})
+category.addEventListener("click", () => {
     exploreMoreLinks.classList.toggle("is-active")
 })
