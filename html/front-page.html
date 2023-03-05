@@ -16,10 +16,33 @@
         <div class="branding">
             <a href="#">
                 <img src="/images/foxieLogo.svg" alt="foxieLogo">
+            </a>
+            <a href="#">
                 <h2>SOCIAL FOXIE</h2>
             </a>
         </div>
-        <div class="mobile-navbar">
+        <div class="hamburger-menu" id="hamburger-menu">
+            <div class="bar">
+
+            </div>
+        </div>
+        <div class="mobile-navbar" id="mobile-navbar">
+            <ul>
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" id="category">Categories</a>                 
+                    <span class="material-symbols-outlined" id="explore-more">
+                    expand_more
+                    </span>
+                    <ul class="explore-more-links" id="explore-more-links">
+                        <li><a href="#" class="nav-link">Instagram</a></li>
+                        <li><a href="#" class="nav-link">TikTok</a></li>
+                        <li><a href="#" class="nav-link">Patreon</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="nav-link">About</a></li>
+            </ul>
+        </div>
+        <div class="desktop-navbar" id="desktop-navbar">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Categories</a>
@@ -39,6 +62,6 @@
             <i class="fa-brands fa-patreon"></i>
         </div>
     </header>
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>

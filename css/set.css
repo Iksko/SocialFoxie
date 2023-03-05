@@ -8,3 +8,14 @@
 body{
     background-image: url(/images/foxieBackground.svg);
 }
+:root{
+    --white: #fff;
+    --lightGray: #f0f0f0;
+    --gray: #232329;
+    --teal: #1396c2;
+    --purple: #5521ba;
+    --text16: 16px;
+    --text18: 18px;
+    --h1: 50px;
+    --h2: 24px;
+}

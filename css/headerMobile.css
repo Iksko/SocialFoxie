@@ -1,0 +1,109 @@
+@media screen and (max-width: 480px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-position: 35%;
+        background-repeat: no-repeat;
+        background-size: 1800px;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .branding{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header img{
+        width: 100px;
+        height: auto;
+    }
+    header .search-icon{
+        display: none;
+    }
+    header .branding a{
+        color: var(--white);
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+    /* HAMMENU*/
+    header .hamburger-menu{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    /*HAMMENU-ICON*/
+    header .hamburger-menu .bar, .hamburger-menu::before, .hamburger-menu:after{
+        content: "";
+        width: 100%;
+        height: 3px;
+        background-color: var(--white);
+        display: block;
+        margin: 5px 0;
+        border-radius: 5px;
+        transition: .4s;
+    }
+    header .hamburger-menu.is-active::before{
+        transform: rotate(45deg) translate(40%, -20%);
+    }
+    header .hamburger-menu.is-active::after{
+        transform: rotate(-45deg) translate(40%, 20%);
+    }
+    header .hamburger-menu.is-active .bar{
+        opacity: 0;
+    }
+    .desktop-navbar{
+        display: none;
+    }
+    /*NAV-MENU*/
+    #mobile-navbar{
+        width: 100%;
+        height: 60vh;
+        position: fixed;
+        background: rgba(240, 240, 240, .9);
+        backdrop-filter: 15px;
+        border-radius: 100px 0 0 100px;
+        top: 10vh;
+        left: 100%;
+        transition: .5s  ease-in-out;
+    }
+    #mobile-navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+    #mobile-navbar ul li{
+        list-style: none;
+        margin: 10px 0;
+    }
+    #mobile-navbar ul li a{
+        color: var(--gray);
+        text-decoration: none;
+        font-size: 1.6em;
+        position: relative;
+        padding: 8px 0;
+        letter-spacing: 1px;
+    }
+    #mobile-navbar.is-active{
+        left: 0;
+    }
+    #mobile-navbar ul li #explore-more{
+        position: absolute;
+        font-size: 30px;
+    }
+    #mobile-navbar ul .explore-more-links{
+        margin: 0;
+        display: none;
+    }
+    #mobile-navbar ul .explore-more-links.is-active{
+        display: flex;
+    }
+
+
+    
+}
