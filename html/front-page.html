@@ -13,55 +13,82 @@
 <body>
     
     <header>
+        <!-- BRAND -->
         <div class="branding">
-            <a href="#">
+            <a href="/html/front-page.html">
                 <img src="/images/foxieLogo.svg" alt="foxieLogo">
             </a>
-            <a href="#">
+            <a href="/html/front-page.html">
                 <h2>SOCIAL FOXIE</h2>
             </a>
         </div>
+        <!-- HAMMENU -->
         <div class="hamburger-menu" id="hamburger-menu">
             <div class="bar">
 
             </div>
         </div>
-        <div class="mobile-navbar" id="mobile-navbar">
+        <!-- MOBILE-NAVBAR -->
+        <div id="mobile-navbar">
             <ul>
-                <li><a href="#" class="nav-link">Home<i class="fa-solid fa-house icon"></i></a></li>
+                <li><a href="#" class="nav-link">Home<i class="fa-solid fa-house navbarIcon"></i></a></li>
                 
-                <li ><a href="#" id="category">Categories</a>                 
-                    <span class="material-symbols-outlined" id="explore-more">
-                    expand_more
+                <li >
+                    <!-- CATEGORIES-BTN -->
+                    <a href="#" id="categoriesBtn">
+                        Categories
+                        <!-- CATEGORIES-ICON -->
+                        <span class="material-symbols-outlined chevronIcon" id="chevronRight">
+                            chevron_right
+                        </span>
+                    </a> 
+                    <!-- CATEGORIES-LINKS -->
+                    <ul id="categoriesLinks">
+                        <li><a href="#" class="nav-link">Instagram<i class="fa-brands fa-instagram navbarIcon"></i></a></li>
+                        <li><a href="#" class="nav-link">TikTok<i class="fa-brands fa-tiktok navbarIcon"></i></a></li>
+                        <li><a href="#" class="nav-link">Patreon<i class="fa-brands fa-patreon navbarIcon"></i></a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="#" class="nav-link">About<i class="fa-solid fa-users navbarIcon"></i></a></li>
+            </ul>
+        </div>
+        <!-- DESKTOP-NAVBAR -->
+        <div class="container">
+
+            <div id="desktop-navbar">
+                <ul>
+                    <li><a href="#" class="nav-link">Home<i class="fa-solid fa-house navbarIcon"></i></a></li>
+                    
+                    <li >
+                        <!-- CATEGORIES-BTN -->
+                        <a href="#">
+                            Categories
+                            <!-- CATEGORIES-ICON -->
+                            <span class="material-symbols-outlined chevronIcon">
+                                chevron_right
+                            </span>
+                        </a> 
+                        <!-- CATEGORIES-LINKS -->
+                        <ul id="categoriesLinksDesktop">
+                            <li><a href="#" class="nav-link">Instagram<i class="fa-brands fa-instagram navbarIcon"></i></a></li>
+                            <li><a href="#" class="nav-link">TikTok<i class="fa-brands fa-tiktok navbarIcon"></i></a></li>
+                            <li><a href="#" class="nav-link">Patreon<i class="fa-brands fa-patreon navbarIcon"></i></a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#" class="nav-link">About<i class="fa-solid fa-users navbarIcon"></i></a></li>
+                </ul>
+            </div>
+            <div id="search-icon">
+    
+                    <span class="material-symbols-outlined">
+                        search
                     </span>
-                    <ul class="explore-more-links" id="explore-more-links">
-                        <li><a href="#" class="nav-link media-nav-link">Instagram<i class="fa-brands fa-square-instagram icon"></i></a></li>
-                        <li><a href="#" class="nav-link media-nav-link">TikTok<i class="fa-brands fa-tiktok icon"></i></a></li>
-                        <li><a href="#" class="nav-link media-nav-link">Patreon<i class="fa-brands fa-patreon icon"></i></a></li>
-                    </ul>
-                </li>
                 
-                <li><a href="#" class="nav-link">About<i class="fa-solid fa-users icon"></i></a></li>
-            </ul>
-        </div>
-        <div class="desktop-navbar" id="desktop-navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categories</a>
-                    <ul>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">TikTok</a></li>
-                        <li><a href="#">Patreon</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
-        <div class="search-icon">
-            <span class="material-symbols-outlined">
-                search
-            </span>
-            <i class="fa-brands fa-patreon"></i>
+                <i class="fa-brands fa-patreon"></i>
+            </div>
+
         </div>
     </header>
     <script src="/js/script.js"></script>

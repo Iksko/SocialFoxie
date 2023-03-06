@@ -1,5 +1,71 @@
+@media screen and (min-width: 1025px){
+    body{
+        background-repeat: no-repeat;
+    }
+    header img{
+        width: 120px;
+        height: auto;
+    }
+    header .branding a{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    header #hamburger-menu{
+        display: none;
+    }
+    header #mobile-navbar{
+        display: none;
+    }
+    header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header #desktop-navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    header #search-icon{
+        display: flex;
+    }
+    header #desktop-navbar #categoriesLinksDesktop{
+        display: none;
+        flex-direction: column;
+    }
+    header #desktop-navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header #desktop-navbar ul li{
+        list-style: none;
+        margin-right: 40px;
+    }
+    header #desktop-navbar ul li a{
+        font-size: 18px;
+    }
+    header #desktop-navbar .navbarIcon{
+        font-size: 30px;
+    }
+    #desktop-navbar .chevronIcon{
+        font-size: 40px;
+    }
+    #search-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10px;
+        border-radius: 15px;
+        color: var(--white);
+    }
+    #search-icon span{
+        font-size: 35px;
+        padding: 0 5px;
+    }
+    #search-icon i{
+        font-size: 25px;
+        padding: 0 5px;
+    }
+    
 
-h1{
-    font-size: 50px;
-    font-weight: 300;
 }

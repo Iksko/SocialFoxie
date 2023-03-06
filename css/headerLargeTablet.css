@@ -1,4 +1,4 @@
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     body{
         width: 100vw;
         height: 100vh;
@@ -6,11 +6,11 @@
         background-repeat: no-repeat;
     }
     header img{
-        width: 120px;
+        width: 150px;
         height: auto;
     }
     header .branding a{
-        font-size: var(--text20);
+        font-size: 24px;
     }
     header #hamburger-menu{
         width: 40px;
@@ -21,7 +21,7 @@
         margin: 10px 0;
     }
     #mobile-navbar ul li a{
-        font-size: 28px;
+        font-size: 35px;
     }
     header #hamburger-menu.is-active::before{
         transform: rotate(45deg) translate(50%, -30%);
@@ -29,6 +29,4 @@
     header #hamburger-menu.is-active::after{
         transform: rotate(-45deg) translate(50%, 30%);
     }
-
-
 }
