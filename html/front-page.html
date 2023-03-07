@@ -13,64 +13,39 @@
 <body>
     
     <header>
-        <!-- BRAND -->
-        <div class="branding">
-            <a href="/html/front-page.html">
-                <img src="/images/foxieLogo.svg" alt="foxieLogo">
-            </a>
-            <a href="/html/front-page.html">
-                <h2>SOCIAL FOXIE</h2>
-            </a>
-        </div>
-        <!-- HAMMENU -->
-        <div class="hamburger-menu" id="hamburger-menu">
-            <div class="bar">
-
-            </div>
-        </div>
-        <!-- MOBILE-NAVBAR -->
-        <div id="mobile-navbar">
-            <ul>
-                <li><a href="#" class="nav-link">Home<i class="fa-solid fa-house navbarIcon"></i></a></li>
-                
-                <li >
-                    <!-- CATEGORIES-BTN -->
-                    <a href="#" id="categoriesBtn">
-                        Categories
-                        <!-- CATEGORIES-ICON -->
-                        <span class="material-symbols-outlined chevronIcon" id="chevronRight">
-                            chevron_right
-                        </span>
-                    </a> 
-                    <!-- CATEGORIES-LINKS -->
-                    <ul id="categoriesLinks">
-                        <li><a href="#" class="nav-link">Instagram<i class="fa-brands fa-instagram navbarIcon"></i></a></li>
-                        <li><a href="#" class="nav-link">TikTok<i class="fa-brands fa-tiktok navbarIcon"></i></a></li>
-                        <li><a href="#" class="nav-link">Patreon<i class="fa-brands fa-patreon navbarIcon"></i></a></li>
-                    </ul>
-                </li>
-                
-                <li><a href="#" class="nav-link">About<i class="fa-solid fa-users navbarIcon"></i></a></li>
-            </ul>
-        </div>
-        <!-- DESKTOP-NAVBAR -->
         <div class="container">
 
-            <div id="desktop-navbar">
+            <!-- BRAND -->
+            <div class="branding">
+                <a href="/html/front-page.html">
+                    <img src="/images/foxieLogo.svg" alt="foxieLogo">
+                </a>
+                <a href="/html/front-page.html">
+                    <h2>SOCIAL FOXIE</h2>
+                </a>
+            </div>
+            <!-- HAMMENU -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="bar">
+    
+                </div>
+            </div>
+            <!-- MOBILE-NAVBAR -->
+            <div id="mobile-navbar">
                 <ul>
                     <li><a href="#" class="nav-link">Home<i class="fa-solid fa-house navbarIcon"></i></a></li>
                     
                     <li >
                         <!-- CATEGORIES-BTN -->
-                        <a href="#">
+                        <a href="#" id="categoriesBtn">
                             Categories
                             <!-- CATEGORIES-ICON -->
-                            <span class="material-symbols-outlined chevronIcon">
+                            <span class="material-symbols-outlined chevronIcon" id="chevronRight">
                                 chevron_right
                             </span>
                         </a> 
                         <!-- CATEGORIES-LINKS -->
-                        <ul id="categoriesLinksDesktop">
+                        <ul id="categoriesLinks">
                             <li><a href="#" class="nav-link">Instagram<i class="fa-brands fa-instagram navbarIcon"></i></a></li>
                             <li><a href="#" class="nav-link">TikTok<i class="fa-brands fa-tiktok navbarIcon"></i></a></li>
                             <li><a href="#" class="nav-link">Patreon<i class="fa-brands fa-patreon navbarIcon"></i></a></li>
@@ -80,13 +55,56 @@
                     <li><a href="#" class="nav-link">About<i class="fa-solid fa-users navbarIcon"></i></a></li>
                 </ul>
             </div>
-            <div id="search-icon">
+            <!-- DESKTOP-NAVBAR -->
+            <div class="navigation">
     
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                
-                <i class="fa-brands fa-patreon"></i>
+                <div id="desktop-navbar">
+                    <ul>
+                        <li><a href="#" class="nav-link">Home<i class="fa-solid fa-house navbarIcon"></i></a></li>
+                        
+                        <li >
+                            <!-- CATEGORIES-BTN -->
+                            <a href="#" id="category">
+                                Categories
+                                <!-- CATEGORIES-ICON -->
+                                <span class="material-symbols-outlined chevronIcon" id="chevronRightDesktop">
+                                    chevron_right
+                                </span>
+                            </a> 
+                            <!-- CATEGORIES-LINKS -->
+                            <ul id="categoriesLinksDesktop">
+                                <li><a href="#"><div class="media">
+                                    <i class="fa-brands fa-instagram navbarIcon"></i>Instagram
+                                </div></a></li>
+
+                                <li><a href="#"><div class="media">
+                                    <i class="fa-brands fa-tiktok navbarIcon"></i>TikTok
+                                </div></a></li>
+                                
+                                <li><a href="#"><div class="media">
+                                    <i class="fa-brands fa-patreon navbarIcon"></i>Patreon
+                                </div></a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="#" class="nav-link">About<i class="fa-solid fa-users navbarIcon"></i></a></li>
+                    </ul>
+                </div>
+                <div id="search-icon">
+                        <div class="search">
+                            <a href="#"><span class="material-symbols-outlined">
+                                search
+                            </span>
+                            <form action="#">
+                                <input type="search" name="search" placeholder="Search">
+                            </form></a>
+                        </div>
+                        <div class="patreon">
+                            <a href="#"><i class="fa-brands fa-patreon"></i></a>
+                        </div>
+                    
+                </div>
+    
             </div>
 
         </div>

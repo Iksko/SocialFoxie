@@ -2,20 +2,28 @@
     body{
         background-repeat: no-repeat;
     }
+    header{
+        justify-content: space-evenly;
+    }
+    /*LOGO*/
     header img{
         width: 60px;
         height: auto;
+        margin-right: 15px;
     }
-    header .branding a{
-        font-size: var(--text16);
+    /*HEADING*/
+    header .branding a h2{
+        font-size: var(--h2);
     }
+    /*HAMMENU*/
     header #hamburger-menu{
         display: none;
     }
+    /*NAVBAR*/
     header #mobile-navbar{
         display: none;
     }
-    header .container{
+    header .navigation{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -42,6 +50,10 @@
     }
     header #desktop-navbar ul li a{
         font-size: 18px;
+        transition: .4s;
+    }
+    header #desktop-navbar ul li a:hover{
+        color: var(--lightGray);
     }
     header #desktop-navbar .navbarIcon{
         font-size: 20px;
@@ -49,21 +61,106 @@
     #desktop-navbar .chevronIcon{
         font-size: 30px;
     }
+    #desktop-navbar .chevronIcon.is-active{
+        animation: chevronRight .2s forwards;
+    }
+    #categoriesLinksDesktop{
+        position: absolute;
+    }
+    #desktop-navbar #categoriesLinksDesktop.is-active{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 500px;
+        height: 400px;
+        background-color: var(--gray);
+        border-radius: 15px;
+        right: 31%;
+        top: 10%;
+        padding: 20px;
+        animation: categoriesLinks .8s forwards;
+    }
+    #desktop-navbar #categoriesLinksDesktop li{
+        margin: 0;
+    }
+    .media .navbarIcon{
+        margin: 0;
+        padding: 5px;
+    }
+    .media{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    @media screen and (min-width: 1500px){
+        .navigation{
+            width: 55%;
+        }
+        #search-icon{
+            width: 35%;
+        }
+    }
+    /*SLIDE-EFFECT*/
+    #desktop-navbar ul li #category::after{
+        transform-origin: left;
+        bottom: 0;
+    }
+    #desktop-navbar ul li #category::after{
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: var(--lightGray) ;
+        position: absolute;
+        transform: scaleX(0);
+        transition: .4s cubic-bezier(0.53, 0.06, 0.12, 0.88);
+        left: 0;
+    }
+    #desktop-navbar ul li #category:hover::after{
+        transform: scaleX(1);
+    }
+    #desktop-navbar ul li #category{
+        transition: .4s;
+    }
+    #desktop-navbar ul li #category:hover{
+        color: var(--lightGray);
+    }
+    /*SEARCH-ICON*/
     #search-icon{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 5px 10px;
-        border-radius: 15px;
+    }
+    #search-icon .search a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    #search-icon .search a span{
+        font-size: 30px;
+        padding: 5px;
         color: var(--white);
     }
-    #search-icon span{
-        font-size: 25px;
-        padding: 0 5px;
+    #search-icon .search input{
+        width: 90%;
+        height: 28px;
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: none;
     }
-    #search-icon i{
-        font-size: 20px;
-        padding: 0 5px;
+    #search-icon .patreon i{
+        font-size: 25px;
+        padding: 10px;
+        color: var(--white);
+        transition: .6s;
+    }
+    #search-icon .patreon i:hover{
+        font-size: 25px;
+        background-color: var(--gray);
+        border-radius: 50%;
+        color: var(--lightGray);
     }
     
 

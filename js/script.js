@@ -11,6 +11,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     hamburger.classList.remove("is-active")
     navbar.classList.remove("is-active")
     categoriesUlLinks.classList.remove("is-active")
+    categoriesLinksDesktop.classList.remove("is-active")
 }))
 
 /*CATEGORIES DROP-DOWN ICON*/
@@ -21,4 +22,14 @@ const chevronRight = document.getElementById("chevronRight")
 categories.addEventListener("click", () => {
     categoriesUlLinks.classList.toggle("is-active")
     chevronRight.classList.toggle("is-active")
+})
+
+/*DESKTOP-CATEGORIES-DROP-DOWN-MENU*/
+const categoriesDesktop = document.getElementById("category")
+const categoriesLinksDesktop = document.getElementById("categoriesLinksDesktop")
+const chevronRightDesktop = document.getElementById("chevronRightDesktop")
+
+categoriesDesktop.addEventListener("click", () => {
+    categoriesLinksDesktop.classList.toggle("is-active")
+    chevronRightDesktop.classList.toggle("is-active")
 })
