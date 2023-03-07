@@ -7,7 +7,7 @@
         height: auto;
     }
     header .branding a{
-        font-size: 14px;
+        font-size: var(--text16);
     }
     header #hamburger-menu{
         display: none;
@@ -44,10 +44,10 @@
         font-size: 18px;
     }
     header #desktop-navbar .navbarIcon{
-        font-size: 30px;
+        font-size: 20px;
     }
     #desktop-navbar .chevronIcon{
-        font-size: 40px;
+        font-size: 30px;
     }
     #search-icon{
         display: flex;
@@ -58,11 +58,11 @@
         color: var(--white);
     }
     #search-icon span{
-        font-size: 35px;
+        font-size: 25px;
         padding: 0 5px;
     }
     #search-icon i{
-        font-size: 25px;
+        font-size: 20px;
         padding: 0 5px;
     }
     

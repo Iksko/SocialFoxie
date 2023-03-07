@@ -5,26 +5,21 @@
         background-position: 35%;
         background-repeat: no-repeat;
     }
-    header{
-        padding: 20px;
-    }
-    header .braning{
-        font-size: 15px;
-    }
     header img{
-        width: 80px;
+        width: 60px;
         height: auto;
+        margin-right: 15px;
     }
     header .branding a{
-        font-size: var(--text20);
+        font-size: var(--text16);
     }
     header #hamburger-menu{
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         margin: 0 50px 0 0;
     }
     header #hamburger-menu .bar, #hamburger-menu:after{
-        margin: 10px 0;
+        margin: 8px 0;
     }
     #mobile-navbar ul li a{
         font-size: 28px;
