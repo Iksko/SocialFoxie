@@ -5,8 +5,14 @@
         background-position: 35%;
         background-repeat: no-repeat;
     }
+    header{
+        padding: 20px;
+    }
+    header .braning{
+        font-size: 15px;
+    }
     header img{
-        width: 120px;
+        width: 80px;
         height: auto;
     }
     header .branding a{

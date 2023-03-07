@@ -3,12 +3,11 @@
         background-repeat: no-repeat;
     }
     header img{
-        width: 120px;
+        width: 60px;
         height: auto;
     }
     header .branding a{
-        font-size: 20px;
-        margin-right: 20px;
+        font-size: 14px;
     }
     header #hamburger-menu{
         display: none;

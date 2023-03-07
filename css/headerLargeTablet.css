@@ -5,12 +5,16 @@
         background-position: 35%;
         background-repeat: no-repeat;
     }
+    header{
+        padding: 20px;
+    }
     header img{
-        width: 150px;
+        width: 100px;
         height: auto;
+        margin-right: 15px;
     }
     header .branding a{
-        font-size: 24px;
+        font-size: 20px;
     }
     header #hamburger-menu{
         width: 40px;
