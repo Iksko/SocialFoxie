@@ -193,6 +193,24 @@ header #search-icon{
     align-items: center;
     justify-content: space-between;
 }
+/*MAIN*/
+/*MAIN-SHORT DESCRIPTION*/
+main .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+}
+main .description .row1{
+    font-size: var(--text18);
+    padding: 10px 5px 0 5px;
+    font-weight: 300;
+}
+main .description .row2{
+    font-size: var(--text16);
+    padding: 5px;
+    font-weight: 300;
+}
     
     
     
