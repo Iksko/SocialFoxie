@@ -200,16 +200,62 @@ main .description{
     flex-direction: column;
     align-items: center;
     color: var(--white);
+    margin-top: 10px;
 }
 main .description .row1{
     font-size: var(--text18);
     padding: 10px 5px 0 5px;
     font-weight: 300;
+    letter-spacing: 1px;
 }
 main .description .row2{
     font-size: var(--text16);
     padding: 5px;
     font-weight: 300;
+}
+/*MAIN-HEADING*/
+.main-heading-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5vh;
+    z-index: -1;
+}
+.main-heading{
+    width: 90%;
+}
+.main-heading h1{
+    color: var(--white);
+    font-weight: 900;
+    font-size: var(--h1);
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.50);
+}
+/*HEADING-IMG*/
+.main-img-container{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5vh;
+}
+.main-img-container img{
+    width: 70%;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.65);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.65);
+    
+}
+@media screen and (max-width: 380px){
+    .main-heading h1{
+        font-size: 48px;
+    }
+    .main-img-container{
+        margin-top: 3vh;
+    }
+    .main-img-container img{
+        width: 65%;
+    }
 }
     
     

@@ -33,4 +33,12 @@
     header #hamburger-menu.is-active::after{
         transform: rotate(-45deg) translate(50%, 30%);
     }
+    /*MAIN-HEADING*/
+    .main-heading h1{
+        font-size: 85px;
+    }
+    /*HEADING-IMG*/
+    .main-img-container img{
+        width: 60%;
+    }
 }

@@ -162,6 +162,37 @@
         border-radius: 50%;
         color: var(--lightGray);
     }
+
+    /*MAIN-HEADING*/
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-hero-container{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        width: 90%;
+        margin-top: 10vh;
+    }
+    .main-heading-container{
+        padding: 0;
+        justify-content: flex-start;
+        height: 50%;
+        width: 40%;
+        margin-top: 0;
+    }
+    .main-heading h1{
+        font-size: 95px;
+    }
+    /*HEADING-IMG*/
+    .main-img-container{
+        display: flex;
+        margin-top: 0;
+    }
+    .main-img-container img{
+        width: 50%;
+    }
     
 
 }
