@@ -132,12 +132,12 @@
         align-items: center;
         justify-content: space-between;
     }
-    #search-icon .search a{
+    #search-icon .search{
         display: flex;
         align-items: center;
         text-decoration: none;
     }
-    #search-icon .search a span{
+    #search-icon .search span{
         font-size: 30px;
         padding: 5px;
         color: var(--white);
@@ -193,6 +193,7 @@
     .main-img-container img{
         width: 50%;
     }
+    
     
 
 }

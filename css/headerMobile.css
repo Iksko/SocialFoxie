@@ -201,6 +201,7 @@ main .description{
     align-items: center;
     color: var(--white);
     margin-top: 10px;
+    text-align: center;
 }
 main .description .row1{
     font-size: var(--text18);
@@ -256,6 +257,23 @@ main .description .row2{
     }
     .main-img-container img{
         width: 65%;
+    }
+}
+@media screen and (max-width: 300px){
+    /*DESCRIPTION*/
+    main .description .row1{
+        font-size: 16px;
+    }
+    main .description .row2{
+        font-size: 14px;
+    }
+    /*MAIN-HEADING*/
+    .main-heading h1{
+        font-size: 35px;
+    }
+    /*HEADING-IMG*/
+    .main-img-container img{
+        width: 70%;
     }
 }
     

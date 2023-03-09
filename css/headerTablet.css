@@ -33,14 +33,24 @@
     header #hamburger-menu.is-active::after{
         transform: rotate(-45deg) translate(50%, 30%);
     }
-/*MAIN-HEADING*/
-.main-heading h1{
-    font-size: 80px;
-}
-/*HEADING-IMG*/
-.heading-img-container img{
-    width: 55%;
-}
+    /*MAIN-HEADING*/
+    .main-heading h1{
+        font-size: 80px;
+    }
+    /*HEADING-IMG*/
+    .main-img-container img{
+        width: 55%;
+    }
+    @media screen and (max-width: 550px){
+        /*MAIN-HEADING*/
+        .main-heading h1{
+            font-size: 60px;
+        }
+        /*HEADING-IMG*/
+        .main-img-container img{
+            width: 60%;
+        }
+    }
 
 
 }
