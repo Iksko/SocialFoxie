@@ -48,7 +48,16 @@
         }
         /*HEADING-IMG*/
         .main-img-container img{
-            width: 60%;
+            display: none;
+        }
+    }
+    /*EXPLORE-MORE*/
+    .explore-more a{
+        padding: 18px 23px;
+    }
+    @media screen and (max-width: 550px){
+        .explore-more a{
+            padding: 15px 22px;
         }
     }
 
