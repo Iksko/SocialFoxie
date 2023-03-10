@@ -215,6 +215,11 @@
         -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
         box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     }
+    .explore-more a:hover{
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+    }
     
 
 }
