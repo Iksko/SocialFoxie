@@ -387,6 +387,18 @@ main .description .row2{
         font-size: 29px;
     }
 }
+/*AD*/
+.ad-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ad{
+    width: 50%;
+    height: 80px;
+    background: rgb(179, 0, 0);
+    margin: 30px 0 30px 0;
+}
 
 
     
