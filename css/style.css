@@ -5,3 +5,8 @@
 @import url(headerTablet.css);
 @import url(headerLargeTablet.css);
 @import url(headerDesktop.css);
+
+@import url(mainMobile.css);
+@import url(mainTablet.css);
+@import url(mainLargeTablet.css);
+@import url(mainDesktop.css);
