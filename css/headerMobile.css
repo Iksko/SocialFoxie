@@ -320,6 +320,41 @@ main .description .row2{
         padding: 12px 15px;
     }
 }
+/*TOP-RATED-POSTS*/
+.post-container{
+    display: flex;
+    flex-direction: column;
+}
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    height: 500px;
+    background: var(--lightGray);
+    border-radius: 30px;
+}
+.content img{
+    height: 60%;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+.content .dateRead{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.content h2{
+    padding: 20px;
+}
+
+
     
     
     
