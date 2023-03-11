@@ -324,12 +324,28 @@ main .description .row2{
 .post-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.post-heading{
+    width: 90%;
+    font-size: var(--h2);
+    padding: 25px 10px 25px 10px;
+    margin-top: 30px;
+    letter-spacing: 1px;
 }
 .posts{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 40px;
+    color: var(--gray);
+}
+.posts a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 .content{
     display: flex;
@@ -339,19 +355,41 @@ main .description .row2{
     height: 500px;
     background: var(--lightGray);
     border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
 }
 .content img{
     height: 60%;
     object-fit: cover;
     border-radius: 30px 30px 0 0;
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
 }
 .content .dateRead{
     display: flex;
     justify-content: space-between;
-    padding: 0 20px 0 20px;
+    padding: 10px 25px 0 25px;
+    color: var(--gray);
+}
+.content .dateRead p{
+    font-size: var(--text18);
+    letter-spacing: 1px;
 }
 .content h2{
-    padding: 20px;
+    font-size: 32px;
+    padding: 0 25px 35px 25px;
+    color: var(--gray);
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 300px){
+    .content .dateRead p{
+        font-size: 14px;
+    }
+    .content h2{
+        font-size: 29px;
+    }
 }
 
 
