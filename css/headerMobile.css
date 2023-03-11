@@ -380,6 +380,9 @@ main .description .row2{
     letter-spacing: 1px;
 }
 @media screen and (max-width: 300px){
+    .content{
+        height: 430px;
+    }
     .content .dateRead p{
         font-size: 14px;
     }
@@ -399,7 +402,32 @@ main .description .row2{
     background: rgb(179, 0, 0);
     margin: 30px 0 30px 0;
 }
-
+/*CATEGORIES-POSTS*/
+.categories-posts-container{
+    background: var(--purple);
+}
+.categories-posts{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.single-post, .single-post a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.single-post .media-platform{
+    font-size: 35px;
+    padding: 20px 10px;
+    color: var(--white);
+}
+.single-post .content{
+    background: var(--teal);
+}
+/*AD-TWO*/
+.ad-container.two{
+    background: var(--purple);
+}
 
     
     
