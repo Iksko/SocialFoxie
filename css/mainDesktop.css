@@ -135,4 +135,13 @@
         width: 90%;
         margin-bottom: 35px;
     }
+    .instagram{
+        margin: 0;
+    }
+    /*AD-TWO*/
+    .ad-container.two{
+        background: var(--purple);
+        position: none;
+        top: 0;
+    }
 }

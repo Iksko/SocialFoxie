@@ -237,4 +237,6 @@ main .description .row2{
 /*AD-TWO*/
 .ad-container.two{
     background: var(--purple);
+    position: relative;
+    top: -1px;
 }

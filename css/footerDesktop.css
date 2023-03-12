@@ -1,0 +1,8 @@
+@media screen and (min-width: 1025px){
+    .links-container{
+        width: 40%;
+    }
+    .wrapper{
+        width: 70%;
+    }
+}
