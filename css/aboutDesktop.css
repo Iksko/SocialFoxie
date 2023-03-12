@@ -7,6 +7,10 @@
     .about{
         width: 50%;
     }
+    .about-post{
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 60%;
+    }
     .about-side-bar{
         display: flex;
         position: absolute;

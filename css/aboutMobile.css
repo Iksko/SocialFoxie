@@ -46,6 +46,8 @@ main .about-heading{
 .about-post-container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .about-post{
     display: grid;
@@ -57,6 +59,7 @@ main .about-heading{
     color: var(--gray);
     font-size: 33px;
     text-align: center;
+    margin: 20px 0 30px 0;
 }
 .about-content{
     width: 100%;
