@@ -15,3 +15,8 @@
 @import url(footerTablet.css);
 @import url(footerLargeTablet.css);
 @import url(footerDesktop.css);
+
+@import url(aboutMobile.css);
+@import url(aboutTablet.css);
+@import url(aboutLargeTablet.css);
+@import url(aboutDesktop.css);
