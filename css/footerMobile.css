@@ -6,6 +6,8 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: sticky;
+    top: 100%;
 }
 .links-container{
     display: grid;

@@ -238,7 +238,6 @@ main .description .row2{
 .ad-container.two{
     background: var(--purple);
     position: relative;
-    top: -1px;
 }
 /*SIDE-BAR*/
 .side-bar{
