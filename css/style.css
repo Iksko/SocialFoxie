@@ -20,3 +20,8 @@
 @import url(aboutTablet.css);
 @import url(aboutLargeTablet.css);
 @import url(aboutDesktop.css);
+
+@import url(categoryMobile.css);
+@import url(categoryTablet.css);
+@import url(categoryLargeTablet.css);
+@import url(categoryDesktop.css);
