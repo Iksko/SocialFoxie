@@ -1,14 +1,21 @@
 @media screen and (min-width: 481px) and (max-width: 768px){
-    .side-bar{
-        display: none;
+    .about-post{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
     }
     .about-content{
-        width: 75%;
+        width: 100%;
     }
-    .about-post{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    @media screen and (max-width: 550px){
+        .about-post{
+            width: 90%;
+        }
+        .about-content{
+            height: 400px;
+        }
+        .about-content h2{
+            font-size: 30px;
+        }
     }
 }
