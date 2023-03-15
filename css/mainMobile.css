@@ -141,59 +141,72 @@ main .description .row2{
 .posts{
     display: grid;
     grid-template-columns: 100%;
-    grid-gap: 40px;
+    grid-gap: 20px;
     color: var(--gray);
-}
-.posts a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
 }
 .content{
     display: flex;
+    justify-content: center;
+}
+.content a{
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 85%;
-    height: 500px;
+    width: 80%;
+    height: 410px;
     background: var(--lightGray);
     border-radius: 30px;
+    text-decoration: none;
     -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
+    margin-top: 10px;
 }
-.content img{
-    height: 60%;
+.content a img{
+    height: 55%;
     object-fit: cover;
     border-radius: 30px 30px 0 0;
     -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
 }
-.content .dateRead{
+.content a .dateRead{
     display: flex;
     justify-content: space-between;
-    padding: 10px 25px 0 25px;
+    padding: 10px 25px 5px 25px;
     color: var(--gray);
 }
 .content .dateRead p{
     font-size: var(--text18);
-    letter-spacing: 1px;
 }
 .content h2{
-    font-size: 32px;
+    font-size: 30px;
     padding: 0 25px 35px 25px;
     color: var(--gray);
     letter-spacing: 1px;
 }
+.post-description{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 @media screen and (max-width: 300px){
+    .posts{
+        grid-gap: 30px;
+    }
     .content{
-        height: 430px;
+        height: 400px;
+    }
+    .content .dateRead{
+        padding: 10px 20px 0 20px;
     }
     .content .dateRead p{
         font-size: 14px;
     }
     .content h2{
-        font-size: 29px;
+        font-size: 28px;
+        padding: 0 20px 20px 20px;
     }
 }
 /*AD*/
@@ -215,11 +228,9 @@ main .description .row2{
 .categories-posts{
     display: grid;
     grid-template-columns: 100%;
+    padding-top: 30px;
 }
-.instagram{
-    margin-top: 30px;
-}
-.single-post, .single-post a{
+.single-post, .content{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -229,10 +240,16 @@ main .description .row2{
     font-size: 35px;
     padding: 20px 10px;
     color: var(--white);
+    letter-spacing: 1px;
 }
-.single-post .content{
+.single-post .content a{
     background: var(--teal);
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 300px){
+    .single-post .media-platform{
+        font-size: 30px;
+    }
 }
 /*AD-TWO*/
 .ad-container.two{
