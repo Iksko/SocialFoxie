@@ -1,0 +1,7 @@
+.minor-page{
+    background-image: none;
+}
+.minor-page-header{
+    background-image: url(/images/foxieBackground.svg);
+    background-position: 5%;
+}

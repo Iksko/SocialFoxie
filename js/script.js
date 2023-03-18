@@ -33,3 +33,29 @@ categoriesDesktop.addEventListener("click", () => {
     categoriesLinksDesktop.classList.toggle("is-active")
     chevronRightDesktop.classList.toggle("is-active")
 })
+
+/*BACK-TO-TOP-ICON*/
+const iconActive = document.getElementById("icon")
+const header = document.getElementById("header")
+const mobileNav = document.getElementById("mobile-navbar")
+
+window.addEventListener("scroll", () => {
+  if(window.pageYOffset>100){
+    icon.classList.add("is-active")
+  }
+  if(window.pageYOffset>1){
+    header.classList.add("is-active")
+    mobileNav.classList.add("scroll")
+  }
+  else{
+    icon.classList.remove("is-active")
+    header.classList.remove("is-active")
+    mobileNav.classList.remove("scroll")
+  }
+})
+const iconScroll = document.getElementById("icon")
+iconScroll.addEventListener("click", (event) => {
+  event.preventDefault();
+  const target = document.querySelector(iconScroll.getAttribute("href"));
+  target.scrollIntoView({ behavior: "smooth" });
+});

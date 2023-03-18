@@ -1,0 +1,29 @@
+@media screen and (min-width: 1025px){
+    .container-404{
+        height: 80vh;
+    }
+    .article-404{
+        flex-direction: row;
+        width: 100%;
+    }
+    .article-404 img{
+        width: 25%;
+    }
+    .article-404 h1{
+        font-size: 200px;
+        letter-spacing: 1px;
+    }
+    .article-404 p{
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    .article-404 a{
+        color: var(--white);
+        font-size: 30px;
+        letter-spacing: 1px;
+        transition: .2s;
+    }
+    .description-404{
+        margin-left: 3%;
+    }
+}

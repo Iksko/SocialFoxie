@@ -30,3 +30,11 @@
 @import url(singleTablet.css);
 @import url(singleLargeTablet.css);
 @import url(singleDesktop.css);
+
+@import url(404Mobile.css);
+@import url(404Tablet.css);
+@import url(404LargeTablet.css);
+@import url(404Desktop.css);
+
+@import url(back-to-top-icon.css);
+@import url(minor-page-header.css);
